@@ -1,0 +1,50 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Facebook login",
+        "description": "",
+        "id": "facebook-project;facebook-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 60553389347,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter username and password",
+            "match": {
+              "location": "FacebookLogin.Enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "prasads2209@gmail.com",
+                  "Yuva@143"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook project",
+    "description": "",
+    "id": "facebook-project",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
